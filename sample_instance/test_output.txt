@@ -1,0 +1,118 @@
+('female', 'male')
+('Lung', 'Trachea')
+('T cell', 'ciliated columnar cell of tracheobronchial tree')
+
+('female', 'male')
+('Diaphragm', 'Limb_Muscle', 'MAT', 'Thymus', 'Trachea')
+('endothelial cell', 'macrophage')
+
+('female', 'male')
+('Thymus', 'Trachea')
+('endothelial cell', 'fibroblast', 'macrophage')
+
+('female', 'male')
+('Diaphragm', 'Limb_Muscle', 'MAT', 'Trachea')
+('T cell', 'endothelial cell', 'macrophage')
+
+('female', 'male')
+('Diaphragm', 'Limb_Muscle')
+('B cell', 'T cell', 'endothelial cell', 'macrophage', 'mesenchymal stem cell', 'skeletal muscle satellite cell')
+
+('female', 'male')
+('Diaphragm', 'Limb_Muscle', 'MAT')
+('B cell', 'T cell', 'endothelial cell', 'macrophage')
+
+('female', 'male')
+('BAT', 'GAT', 'MAT', 'SCAT')
+('B cell', 'NK cell', 'T cell', 'endothelial cell', 'epithelial cell', 'mesenchymal stem cell of adipose', 'myeloid cell')
+
+('female', 'male')
+('GAT', 'MAT', 'SCAT')
+('B cell', 'CD4-positive, alpha-beta T cell', 'CD8-positive, alpha-beta T cell', 'NK cell', 'T cell', 'endothelial cell', 'epithelial cell', 'mesenchymal stem cell of adipose', 'myeloid cell')
+
+('female', 'male')
+('BAT', 'Brain_Non-Myeloid', 'Diaphragm', 'GAT', 'Limb_Muscle', 'MAT', 'SCAT', 'Trachea')
+('T cell', 'endothelial cell')
+
+('female', 'male')
+('BAT', 'Diaphragm', 'GAT', 'Limb_Muscle', 'MAT', 'SCAT')
+('B cell', 'T cell', 'endothelial cell')
+
+('female', 'male')
+('Brain_Non-Myeloid', 'GAT', 'MAT', 'SCAT')
+('CD8-positive, alpha-beta T cell', 'T cell', 'endothelial cell')
+
+('female', 'male')
+('Brain_Non-Myeloid', 'Liver')
+('CD8-positive, alpha-beta T cell', 'T cell', 'mature NK T cell')
+
+('female', 'male')
+('Skin', 'Thymus', 'Trachea')
+('fibroblast', 'macrophage')
+
+('female', 'male')
+('Skin', 'Trachea')
+('T cell', 'fibroblast', 'macrophage')
+
+('female', 'male')
+('Aorta', 'Heart')
+('fibroblast of cardiac tissue', 'macrophage')
+
+('female', 'male')
+('MAT', 'Marrow')
+('CD4-positive, alpha-beta T cell', 'NK cell', 'macrophage')
+
+('female', 'male')
+('Diaphragm', 'Heart', 'Kidney', 'Limb_Muscle', 'MAT', 'Skin', 'Trachea')
+('T cell', 'macrophage')
+
+('female', 'male')
+('Diaphragm', 'Heart', 'Kidney', 'Limb_Muscle', 'MAT')
+('B cell', 'T cell', 'macrophage')
+
+('female', 'male')
+('Aorta', 'MAT')
+('epithelial cell', 'macrophage')
+
+('female', 'male')
+('Marrow', 'Trachea')
+('granulocyte', 'macrophage')
+
+('female', 'male')
+('GAT', 'Liver', 'Lung', 'MAT', 'Marrow', 'SCAT', 'Spleen')
+('CD4-positive, alpha-beta T cell', 'NK cell')
+
+('female', 'male')
+('GAT', 'Liver', 'Lung', 'MAT', 'SCAT')
+('B cell', 'CD4-positive, alpha-beta T cell', 'CD8-positive, alpha-beta T cell', 'NK cell', 'T cell')
+
+('female', 'male')
+('Liver', 'Lung')
+('B cell', 'CD4-positive, alpha-beta T cell', 'CD8-positive, alpha-beta T cell', 'NK cell', 'T cell', 'neutrophil')
+
+('female', 'male')
+('GAT', 'Liver', 'Lung', 'MAT', 'SCAT', 'Spleen')
+('B cell', 'CD4-positive, alpha-beta T cell', 'CD8-positive, alpha-beta T cell', 'NK cell')
+
+('female', 'male')
+('Marrow', 'Spleen')
+('CD4-positive, alpha-beta T cell', 'NK cell', 'granulocyte')
+
+('female', 'male')
+('BAT', 'GAT', 'Liver', 'Lung', 'MAT', 'SCAT')
+('B cell', 'NK cell', 'T cell')
+
+('female', 'male')
+('BAT', 'Diaphragm', 'GAT', 'Heart', 'Kidney', 'Limb_Muscle', 'Liver', 'Lung', 'MAT', 'SCAT')
+('B cell', 'T cell')
+
+('female', 'male')
+('Brain_Non-Myeloid', 'GAT', 'Liver', 'Lung', 'MAT', 'SCAT')
+('CD8-positive, alpha-beta T cell', 'T cell')
+
+('female', 'male')
+('BAT', 'GAT', 'Liver', 'Lung', 'MAT', 'SCAT', 'Spleen')
+('B cell', 'NK cell')
+
+29 maximal solutions have been found.
+Time: 0.030852079391479492 sec.
