@@ -1,4 +1,4 @@
-### k-partite-hypergraph
+# k-partite-hypergraph
 
 This folder contains the codes to compute the maximal solutions given a file and a list of thresholds used in the paper "Data mining method of single-cell omics data to evaluate a pure tissue environment effect on gene expression level".
 
