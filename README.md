@@ -16,5 +16,10 @@ python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.
 
 Notice: The ordering of the obtained maximal solutions may differ every time you run the code.
 This phenomenon is caused by the usage of the data structure `set()` in python.
-You can fix the ordering of the solutions by fixing the random seed; e.g., type `export PYTHONHASHSEED=42` first on the command lines before running the code.
+You can fix the ordering of the solutions by fixing the random seed. For example, type `export PYTHONHASHSEED=42` first on the command lines before running the code as follows. 
 
+```
+export PYTHONHASHSEED=42 python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
+```
+
+Note: you can use any positive integer as a random seed, instead of 42.
