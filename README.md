@@ -14,7 +14,7 @@ A sample usage:
 python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
 ```
 
-**Notice:** The ordering of the obtained maximal solutions may differ every time you run the code.
+**Notice:** Every time you run the code, exactly the same set of maximal solutions is output although the ordering may differ.
 This phenomenon is caused by the usage of the data structure `set()` in python.
 You can fix the ordering of the solutions by fixing the random seed.
 For example, when the program is run on the command line, type:
