@@ -3,8 +3,9 @@
 This folder contains the codes to compute the maximal solutions given a file and a list of thresholds, which is used in the paper "Data mining method of single-cell omics data to evaluate a pure tissue environment effect on gene expression level".
 
 Here:
-- hypergraph.py: implemented code for the Algorithm 1; and
-- main.py: a simple example to use the code.
+- hypergraph.py: implemented code for the Algorithm 1; 
+- main.py: a simple example to use the code; and
+- test_main.py: a testing code (`pytest test_main.py`).
 
 Please check `main.py` for more details for the usage of the code.
 

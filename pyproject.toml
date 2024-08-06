@@ -1,0 +1,13 @@
+[project]
+name = "k-partite-hypergraph"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "pandas ~= 2.0.3",
+    "pytest ~= 8.3.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ku-dml/k-partite-hypergraph"
