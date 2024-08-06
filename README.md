@@ -7,7 +7,7 @@ Here:
 - main.py: a simple example to use the code; and
 - test_main.py: a testing code (`pytest test_main.py`).
 
-Requirement: `pandas >= 2.0.3` and `pytest >= 8.3.2`.
+Requirement: `pandas >= 2.0.3` and `pytest >= 8.3.2`. Use `pip install -e .` to install them.
 
 Please check `main.py` for more details for the usage of the code.
 
