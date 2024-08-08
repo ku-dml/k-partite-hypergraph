@@ -9,12 +9,6 @@ Here:
 
 For the usage of the code, please check `main.py` for more details.
 
-A sample usage:
-
-```
-python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
-```
-
 **Library dependencies:** `pandas >= 2.0.3`, `pytest >= 8.3.2` (only need for the testing code).
 
 **Installation:**
@@ -23,6 +17,12 @@ To install the necessary packages for the codes, use the command `pip install -e
 
 **Test:**
 Use `pytest test_main.py` to test if the codes are successfully installed.
+
+A sample usage for the computation of maximal solutions:
+
+```
+python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
+```
 
 ***Notice:*** Every time you run the code, exactly the same set of maximal solutions is output although the ordering may differ.
 This phenomenon is caused by the usage of the data structure `set()` in python.
