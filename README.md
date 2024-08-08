@@ -1,14 +1,15 @@
 # k-partite-hypergraph
 
-This folder contains the codes to compute the maximal solutions given a file and a list of thresholds, which is used in the paper "Data mining method of single-cell omics data to evaluate a pure tissue environment effect on gene expression level".
+This folder contains the codes to compute the maximal solutions given a file and a list of thresholds, which is used in the paper "Data mining method of single-cell omics data to evaluate a pure tissue environment effect on gene expression level" as Algorithm 1.
 
 Here:
 - hypergraph.py: implemented code for the Algorithm 1; 
 - main.py: a simple example to use the code; and
 - test_main.py: a testing code (`pytest test_main.py`).
 
-To run the codes, `pandas >= 2.0.3` is required. The testing code `pytest test_main.py` also requires `pytest >= 8.3.2`.
-You can clone the whole repository, use `cd` command on the terminal to move the current directory to the repository, and use `pip install -e .` to install the necessary packages.
+To run the codes, `pandas >= 2.0.3` is required. The testing code `test_main.py` also requires `pytest >= 8.3.2`.
+You can clone the whole repository, use `cd` command on the terminal to move the current directory to the repository, and then use `pip install -e .` on the terminal to install the necessary packages.
+After the installation completes, you can use `pytest test_main.py` to test if the codes are successfully installed.
 
 For the usage of the code, please check `main.py` for more details.
 
