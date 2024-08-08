@@ -33,10 +33,10 @@ Please check `main.py` for more details about the usage of the codes.
 > This phenomenon is caused by the usage of the data structure `set()` in python.
 > You can fix the ordering of the solutions by fixing the random seed.
 > For example, when the program is run on the command line, type:
-
-```
-export PYTHONHASHSEED=42
-python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
-```
-
-You can use any positive integer as a random seed, instead of 42.
+> 
+> ```
+> export PYTHONHASHSEED=42
+> python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
+> ```
+> 
+> You can use any positive integer as a random seed, instead of 42.
