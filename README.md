@@ -7,10 +7,6 @@ Here:
 - main.py: a simple example to use the code; and
 - test_main.py: a testing code (`pytest test_main.py`).
 
-To run the codes, `pandas >= 2.0.3` is required. The testing code `test_main.py` also requires `pytest >= 8.3.2`.
-You can clone the whole repository, use `cd` command on the terminal to move the current directory to the repository, and then use `pip install -e .` on the terminal to install the necessary packages.
-After the installation completes, you can use `pytest test_main.py` to test if the codes are successfully installed.
-
 For the usage of the code, please check `main.py` for more details.
 
 A sample usage:
@@ -19,7 +15,16 @@ A sample usage:
 python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
 ```
 
-**Notice:** Every time you run the code, exactly the same set of maximal solutions is output although the ordering may differ.
+**Library dependencies:** `pandas >= 2.0.3`, `pytest >= 8.3.2` (only need for the testing code).
+
+**Installation:**
+Please clone the whole repository to use the codes. 
+To install the necessary packages for the codes, use the command `pip install -e .` on the terminal (assume that the current directory is the repository).
+
+**Test:**
+Use `pytest test_main.py` to test if the codes are successfully installed.
+
+***Notice:*** Every time you run the code, exactly the same set of maximal solutions is output although the ordering may differ.
 This phenomenon is caused by the usage of the data structure `set()` in python.
 You can fix the ordering of the solutions by fixing the random seed.
 For example, when the program is run on the command line, type:
