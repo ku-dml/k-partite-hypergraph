@@ -7,8 +7,6 @@ Here:
 - main.py: a simple example to use the code; and
 - test_main.py: a testing code (`pytest test_main.py`).
 
-For the usage of the code, please check `main.py` for more details.
-
 **Library dependencies:** `pandas >= 2.0.3`, `pytest >= 8.3.2` (only need for the testing code).
 
 **Installation:**
@@ -23,6 +21,8 @@ A sample usage for the computation of maximal solutions:
 ```
 python main.py ./sample_instance/celltissue.csv > ./sample_instance/test_output.txt
 ```
+
+Please check `main.py` for more details about the usage of the codes.
 
 ***Notice:*** Every time you run the code, exactly the same set of maximal solutions is output although the ordering may differ.
 This phenomenon is caused by the usage of the data structure `set()` in python.
